@@ -2,7 +2,7 @@ package com.bridgelabz.censusanalyser;
 
 import com.bridgelabz.errorandexceptions.CensusAnalyserException;
 
-public class Main {
+public class CensusAnalyserMain {
 
 	public static void main(String[] args) throws CensusAnalyserException {
 		System.out.println("Welcome to the Indian States Census Analyser Problem!");

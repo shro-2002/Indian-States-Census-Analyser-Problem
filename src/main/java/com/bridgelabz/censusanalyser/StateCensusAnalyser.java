@@ -4,7 +4,20 @@ import java.util.List;
 
 import com.bridgelabz.errorandexceptions.CensusAnalyserException;
 
+/*
+ * @Description - Class to load the State Census Data
+ * 
+ * @Methods: loadCensusData()
+ */
 public class StateCensusAnalyser {
+
+	/*
+	 * @Description - Method to check the number of records in the file
+	 * 
+	 * @param - String filePath
+	 * 
+	 * @return - None
+	 */
 	public void loadCensusData(String filePath) {
 		CSVStateCensus csvStateCensus = new CSVStateCensus();
 
